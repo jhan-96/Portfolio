@@ -1,21 +1,51 @@
-header {
-  text-align: center;
-  background-color: rgb(153, 255, 187)
-}
-nav {
-  background-color: rgb(204, 255, 204)
-}
-a[href="assignment-1.html"] {
-  color: black;
-  background-color: rgb(0, 204, 68, 0.5)
-}
-a[href="sectioning-elements.html"] {
-  color: black;
-  background-color: rgba(0,204,68, 0.5)
-}
-a[href="about-me.html"] {
-  color: black;
-  background-color: rgba(0,204,68, 0.5)
-}
-
 body {background-color: rgba(204, 255, 255, 0.5)}
+  header {
+    text-align: center;
+    font-family: sans-serif, "Times New Roman", serif;
+    background-color: rgb(153, 255, 187)
+  }
+  nav {
+    background-color: rgb(204, 255, 204)
+  }
+    a[href="assignment-1.html"] {
+      font-weight: bold;
+      border-style: outset;
+      border-color: grey;
+      border-width: thick;
+
+      color: black;
+      padding: 1rem;
+      padding-bottom: 1px;
+      background-color: rgb(0, 204, 68)
+    }
+    a[href="sectioning-elements.html"] {
+      font-weight: bold;
+      border-style: outset;
+      border-color: grey;
+      border-width: thick;
+
+      color: black;
+      padding: 1rem;
+      padding-bottom: 1px;
+      background-color: rgb(0,204,68)
+    }
+    a[href="about-me.html"] {
+      font-weight: bold;
+      border-style: outset;
+      border-color: grey;
+      border-width: thick;
+
+      color: black;
+      padding: 1rem;
+      padding-bottom: 1px;
+      background-color: rgb(0,204,68)
+    }
+    img {
+      border-style: solid;
+      border-color: black;
+      border-width: medium;
+      vertical-align: middle;
+      width: 10%;
+      vertical-align: middle;
+      margin: 15px;
+    }
