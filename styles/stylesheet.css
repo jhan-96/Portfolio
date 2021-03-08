@@ -1,0 +1,21 @@
+header {
+  text-align: center;
+  background-color: rgb(153, 255, 187)
+}
+nav {
+  background-color: rgb(204, 255, 204)
+}
+a[href="assignment-1.html"] {
+  color: black;
+  background-color: rgb(0, 204, 68, 0.5)
+}
+a[href="sectioning-elements.html"] {
+  color: black;
+  background-color: rgba(0,204,68, 0.5)
+}
+a[href="about-me.html"] {
+  color: black;
+  background-color: rgba(0,204,68, 0.5)
+}
+
+body {background-color: rgba(204, 255, 255, 0.5)}
