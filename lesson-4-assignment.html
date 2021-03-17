@@ -5,31 +5,67 @@
     <meta charset="utf-8">
     <title>KITTIES TO GO!</title>
     <style>
+    * {
+      box-sizing: border-box;
+    }
+    /* Style the body */
     body {
       font-family: sans-serif, "Times New Roman", serif, arial;
+      margin: 0;
+      margin-top: -30px;
     }
-      header {
-        box-sizing: content-box;
-        padding-top: 2.5em;
-        padding-left: 8em;
-        background-color: rgb(34, 155, 195);
-      }
-        h1 {
-          color: white;
-          font-size: 2.5em;
-        }
-        .heading {
-          color: white;
-        }
-        nav {
-          box-sizing: content-box;
-          width: auto;
-          height: 5em;
-          background-color: lightgrey;
-        }
-          a[href="#"]{
+    /* Header/logo Title */
+    header {
+      background-color: rgb(34, 155, 195);
+      color:white;
+    }
+    /* Increase the font size of the heading */
+    h1 {
+      font-size: 2.5em;
+      padding-top: 50px;
+      padding-left: 100px;
+    }
+    .heading1 {
+      font-size: 1em;
+      padding-left: 100px;
+    }
+    .heading2 {
+      font-size: 1em;
+      padding-left: 100px;
+      padding-bottom: 30px;
+    }
+    .nav {
+      overflow: hidden;
+      background-color: rgb(230, 230, 230);
+      padding-left: 3em;
+      position: relative;
+    }
+    .nav a {
+      float:left;
+      display: inline;
+      color: black;
+      text-align: center;
+      padding-top: 1.2em;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 1.2em;
+      text-decoration: none;
+    }
+        /*li {
+          list-style-type: none;
+          overflow: hidden;
+          float:left;
+          padding:1em;
+
+        }*/
+
+          /*li a {
+            display:inline;
             color: black;
-          }
+            padding-right: 2em;
+            padding-left: 0;
+          }*/
+
     .welcome {
       float: left;
     }
@@ -45,9 +81,6 @@
       float: left;
     }
 
-
-
-
     </style>
   </head>
 
@@ -55,15 +88,15 @@
   <body>
     <header>
       <h1>KITTIES TO GO!</h1>
-      <p class="heading">Seattle's premiere drive-thru</p>
-      <p class="heading">cat rentals</p>
-      <nav>
-        <a href="#">About   /</a>
-        <a href="#">Rates   /</a>
-        <a href="#">Liability Release   /</a>
-        <a href="#">Kitty Profiles   /</a>
+      <p class="heading1"><i>Seattle's premiere drive-thru</i></p>
+      <p class="heading2"><i>cat rentals</i></p>
+      <div class ="nav">
+        <a href="#">about</a>
+        <a href="#">Rates</a>
+        <a href="#">Liability Release</a>
+        <a href="#">Kitty Profiles</a>
         <a href="#">Book a Cat</a>
-      </nav>
+      </div>
     </header>
 
     <section class="welcome">
@@ -132,10 +165,12 @@
       <p>aborpos nisto inci tet aut que volupti beruptiberro to ex</p>
       <p>esseuque invenienihil imaximu scideru ptistiusam consequunt</p>
       <nav>
-        <a href="#">Footer link 1 /</a>
-        <a href="#">Footer link 2 /</a>
-        <a href="#">Footer link 3 /</a>
-        <a href="#">Footer link 4 /</a>
+        <ul>
+          <li><a href="#">Footer link 1 /</a></li>
+          <li><a href="#">Footer link 2 /</a></li>
+          <li><a href="#">Footer link 3 /</a></li>
+          <li><a href="#">Footer link 4 /</a></li>
+        </ul>
       </nav>
       <p>copy right 2018 Kitties To Go!, LLC | Seattle, WA</p>
     </footer>
