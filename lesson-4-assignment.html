@@ -73,13 +73,13 @@
         color: rgb(34, 155, 195);
         font-size: 0.7em;
       }
-
+/*small text for section=welcome and section=kitties-story */
       .small-text {
         -ms-flex: 70%;
         flex: 70%;
-        padding-top: 10px;
+        padding-top: 0;
         padding-left: 100px;
-        padding-bottom: 40px;
+        padding-bottom: 0;
         margin: 0;
         font-size: 0.8em;
       }
@@ -89,6 +89,7 @@
       .lightblue-text {
         -ms-flex: 70%;
         flex: 70%;
+        padding-top: 30px;
         padding-left: 100px;
         padding-bottom: 30px;
         margin: 0;
@@ -100,9 +101,24 @@
     .kitties-story {
       -ms-flex: 70%;
       flex: 70%;
-      padding-left: 100px;
       float:left;
     }
+      h3 {
+        -ms-flex: 70%;
+        flex: 70%;
+        padding-left: 100px;
+        padding-bottom: 0;
+        margin: 0;
+      }
+        .warmspot{
+          color: rgb(82, 189, 224);
+        }
+      .small-text2 {
+        padding-top: 20px;
+        padding-left: 100px;
+        margin: 0;
+        font-size: 0.8em;
+      }
 
 
 
@@ -143,7 +159,7 @@
 
       <article class="small-text">
         <p>cat ipsum dolor sit amet, find something else more interesting, so catty ipsum mesmerizing birds</p>
-        <p>sleep onmy human's head. <a class ="blanket" href="blanket">Hide head under blanket</a> so no one can see stares at human while</p>
+        <p>sleep onmy human's head. <a class ="blanket" href="#">Hide head under blanket</a> so no one can see stares at human while</p>
         <p>pushing stuff off a table. Cat not kitten around claws in your leg kitty kitty but and sometimes</p>
         <p>switches in french and say "miaou" just because well why not.</p>
       </article>
@@ -157,15 +173,18 @@
 
     <section class="kitties-story">
       <h3>THE KITTIES TO GO STORY</h3>
+      <article class="small-text">
       <p>Fall asleep on the washing machine snuggles up to shoulders or knees and purrs you to sleep.</p>
       <p>eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk</p>
-      <p>then <a href="#">retire to the warmest spot</a>on the couch to claw at the fabric before taking a catnap attempt to</p>
+      <p>then <a class="warmspot" href="#">retire to the warmest spot</a> on the couch to claw at the fabric before taking a catnap attempt to</p>
       <p>leap between furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem? i</p>
       <p>meant to do that now i shall wash myself intently cough and swat at dog.</p>
-      <p>------space-----</p>
+      </article>
+      <article class="small-text2">
       <p>Fall over dead (not really but gets sypathy) fooled again thinking the dog likes me. Jump launch</p>
       <p>to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed hiss at</p>
       <p>vacuum cleaner and always hungry for lie on your belly and pur when you are asleep stretch.</p>
+      </article>
     </section>
 
     <aside class="more-cats">
