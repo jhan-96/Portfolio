@@ -61,9 +61,10 @@
       display: flex;
       -ms-flexwrap: wrap;
       flex-wrap: wrap;
-      float: left;
+      /*float: left;*/
       padding-top: 30px;
       margin: 0;
+      overflow: hidden;
     }
       .bold-blue-text {
         -ms-flex: 70%;
@@ -100,7 +101,8 @@
     .kitties-story {
       -ms-flex: 70%;
       flex: 70%;
-      float:left;
+      /*float:left;*/
+      overflow: hidden;
     }
       h3 {
         -ms-flex: 70%;
@@ -123,11 +125,11 @@
     .more-cats {
       -ms-flex: 30%;
       flex: 30%;
+      padding: 20px;
+      overflow: hidden;
       float: right;
     }
-    footer {
-      float: left;
-    }
+
 
     </style>
   </head>
@@ -147,6 +149,31 @@
       </div>
     </header>
 
+    <aside class="more-cats">
+      <section class="cats-news">
+        <h4>CATS IN THE NEWS</h4>
+        <article class="place-holder-1">
+          <p>Chew iPad power cord why must they do</p>
+          <p>that, grab pompom in mouth and put in</p>
+          <p>water dish.</p>
+          <a href="#">Find out more >></a>
+        </article>
+        <article class="place-holder-2">
+          <p>Chew iPad power cord why must they do</p>
+          <p>that, grab pompom in mouth and put in</p>
+          <p>water dish.</p>
+          <a href="#">Find out more >></a>
+        </article>
+      </section>
+      <section class="cat-of-the-week">
+        <h5>CAT OF THE WEEK</h5>
+        <figure>
+          <img src="xxx" alt="cute grey tabby kitten">
+          <figcaption>Stare at imaginary bug love blinks and purr purr purr.</figcaption>
+        </figure>
+        <a href="#">Book Now >></a>
+      </section>
+    </aside>
     <section class="welcome">
       <article class="bold-blue-text">
         <h2>
@@ -185,33 +212,9 @@
       </article>
     </section>
 
-    <aside class="more-cats">
-      <section class="cats-news">
-        <h4>CATS IN THE NEWS</h4>
-        <article class="place-holder-1">
-          <p>Chew iPad power cord why must they do</p>
-          <p>that, grab pompom in mouth and put in</p>
-          <p>water dish.</p>
-          <a href="#">Find out more >></a>
-        </article>
-        <article class="place-holder-2">
-          <p>Chew iPad power cord why must they do</p>
-          <p>that, grab pompom in mouth and put in</p>
-          <p>water dish.</p>
-          <a href="#">Find out more >></a>
-        </article>
-      </section>
-      <section class="cat-of-the-week">
-        <h5>CAT OF THE WEEK</h5>
-        <figure>
-          <img src="xxx" alt="cute grey tabby kitten">
-          <figcaption>Stare at imaginary bug love blinks and purr purr purr.</figcaption>
-        </figure>
-        <a href="#">Book Now >></a>
-      </section>
-    </aside>
 
-    <footer>
+
+    <!--<footer>
       <img src="xxx" alt="Cat-logo">
       <p>aborpos nisto inci tet aut que volupti beruptiberro to ex</p>
       <p>esseuque invenienihil imaximu scideru ptistiusam consequunt</p>
@@ -224,7 +227,7 @@
         </ul>
       </nav>
       <p>copy right 2018 Kitties To Go!, LLC | Seattle, WA</p>
-    </footer>
+    </footer>-->
 
   </body>
 </html>
