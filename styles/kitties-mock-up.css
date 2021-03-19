@@ -1,0 +1,222 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Style the body */
+body {
+  font-family: sans-serif, "Times New Roman", serif, arial;
+  margin: 0;
+  margin-top: -30px;
+}
+/* Header/logo Title */
+header {
+  background-color: rgb(51, 166, 204);
+  color:white;
+}
+/* Increase the font size of the heading, positioning of heading to match mockup */
+h1 {
+  font-size: 2.5em;
+  padding-top: 50px;
+  padding-left: 5.5em;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+/* Used block element to cut 'cat rentals' onto a second line, positoned subheading to match main heading */
+.heading {
+  display: block;
+  width: 25em;
+  font-size: 1.2em;
+  padding-top: 0;
+  padding-left: 11.5em;
+  padding-bottom: 30px;
+  margin-top: 0;
+}
+.nav {
+  overflow: hidden;
+  background-color: rgb(230, 230, 230);
+  padding-left: 12em;
+  margin: 0;
+  position: relative;
+}
+.nav a {
+  float:left;
+  display: inline;
+  color: black;
+  text-align: center;
+  padding-top: 1.2em;
+  padding-left: 30px;
+  padding-bottom: 1.2em;
+  margin: 0;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+/* section=welcome container */
+.welcome {
+  /*display: -ms-flexbox;*/
+  display: flex;
+  /*-ms-flexwrap: wrap;*/
+  flex-wrap: wrap;
+  /*float: left;*/
+  padding-top: 30px;
+  padding-right: 40px;
+  margin: 0;
+  overflow: hidden;
+}
+  .bold-blue-text {
+    /*-ms-flex: 70%;*/
+    flex: 70%;
+    padding-left: 14em;
+    margin: 0;
+    color: rgb(51, 166, 204);
+    font-size: 1em;
+    font-weight: bold;
+  }
+/*small text for section=welcome and section=kitties-story */
+  .small-text {
+    /*-ms-flex: 70%;*/
+    flex: 70%;
+    padding-top: 0;
+    padding-left: 17.5em;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 0.8em;
+  }
+    .blanket {
+      color: rgb(82, 189, 224);
+      text-decoration: none;
+    }
+  .lightblue-text {
+    /*-ms-flex: 70%;*/
+    flex: 70%;
+    padding-top: 30px;
+    padding-left: 11.5em;
+    padding-bottom: 30px;
+    margin: 0;
+    color: rgb(82, 189, 224);
+    font-size: 1.2em;
+  }
+/* section=kitties-story */
+.kitties-story {
+  /*-ms-flex: 70%;*/
+  flex: 70%;
+  /*float:left;*/
+  padding-right: 20px;
+  overflow: hidden;
+}
+  h3 {
+    /*-ms-flex: 70%;*/
+    flex: 70%;
+    padding-left: 11.5em;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 1.2em;
+  }
+    .warmspot{
+      color: rgb(82, 189, 224);
+      text-decoration: none;
+    }
+/*.small-text {found in .welcome section} */
+  .small-text2 {
+    padding-top: 10px;
+    padding-left: 17.5em;
+    margin: 0;
+    font-size: 0.8em;
+  }
+/*aside section=more-cats */
+.more-cats {
+  /*-ms-flex: 30%;*/
+  flex: 30%;
+  padding-top: 30px;
+  padding-left: 0;
+  padding-right: 10em;
+  overflow: hidden;
+  float: right;
+}
+/* Cats in the news aside */
+.h4 {
+  font-size: 1.2em;
+}
+.place-holder-1 {
+  font-size: 0.8em;
+  padding-top: 0;
+  margin: 0;
+}
+/* find out more link 1*/
+  .find-more-1 {
+    color: rgb(82, 189, 224);
+    text-decoration: none;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.place-holder-2 {
+  padding-top: 30px;
+  margin: 0;
+}
+  .find-more-2 {
+    color: rgb(82, 189, 224);
+    text-decoration: none;
+  }
+/*cat of the week aside*/
+h5 {
+  font-size: 1.2em;
+  padding-top: 55px;
+  padding-left: 0;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+/*the figure, icluding image and caption*/
+.cat-of-the-week {
+  font-size: 0.8em;
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
+}
+  .cat-of-week-pic {
+    width: 75%;
+  }
+.book-now {
+  font-size: 0.8em;
+  color: rgb(82, 189, 224);
+  text-decoration: none;
+}
+/*footer section*/
+footer {
+background-color: rgb(64, 64, 64);
+color: white;
+text-align: center;
+margin-top: 7em;
+padding: 50px;
+font-size: 0.8em;
+}
+.cat-logo {
+  width: 20%;
+}
+.footer-links a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.footer-text1 {
+  padding-top: 20px;
+}
+.footer-text2 {
+  padding-bottom: 20px;
+}
+.copy-right {
+  padding: 20px;
+}
+
+/*hiding these title for validate html purpose0- */
+.h1-hidden {
+  display: none;
+}
+.h2-hidden {
+  display: none;
+}
+.h4-hidden {
+  display: none;
+}
+
+
+</style>
