@@ -1,220 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  <!--some heading h2, h4 etc are hidden for validate html purpose -->
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <title>KITTIES TO GO!</title>
-    <style>
-    * {
-      box-sizing: border-box;
-    }
-    /* Style the body */
-    body {
-      font-family: sans-serif, "Times New Roman", serif, arial;
-      margin: 0;
-      margin-top: -30px;
-    }
-    /* Header/logo Title */
-    header {
-      background-color: rgb(51, 166, 204);
-      color:white;
-    }
-    /* Increase the font size of the heading, positioning of heading to match mockup */
-    h1 {
-      font-size: 2.5em;
-      padding-top: 50px;
-      padding-left: 5.5em;
-      padding-bottom: 8px;
-      margin-bottom: 0;
-    }
-    /* Used block element to cut 'cat rentals' onto a second line, positoned subheading to match main heading */
-    .heading {
-      display: block;
-      width: 25em;
-      font-size: 1.2em;
-      padding-top: 0;
-      padding-left: 11.5em;
-      padding-bottom: 30px;
-      margin-top: 0;
-    }
-    .nav {
-      overflow: hidden;
-      background-color: rgb(230, 230, 230);
-      padding-left: 12em;
-      margin: 0;
-      position: relative;
-    }
-    .nav a {
-      float:left;
-      display: inline;
-      color: black;
-      text-align: center;
-      padding-top: 1.2em;
-      padding-left: 30px;
-      padding-bottom: 1.2em;
-      margin: 0;
-      text-decoration: none;
-      font-size: 0.9em;
-    }
-/* section=welcome container */
-    .welcome {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flexwrap: wrap;
-      flex-wrap: wrap;
-      /*float: left;*/
-      padding-top: 30px;
-      padding-right: 40px;
-      margin: 0;
-      overflow: hidden;
-    }
-      .bold-blue-text {
-        -ms-flex: 70%;
-        flex: 70%;
-        padding-left: 20em;
-        margin: 0;
-        color: rgb(51, 166, 204);
-        font-size: 0.7em;
-      }
-/*small text for section=welcome and section=kitties-story */
-      .small-text {
-        -ms-flex: 70%;
-        flex: 70%;
-        padding-top: 0;
-        padding-left: 17.5em;
-        padding-bottom: 0;
-        margin: 0;
-        font-size: 0.8em;
-      }
-        .blanket {
-          color: rgb(82, 189, 224);
-          text-decoration: none;
-        }
-      .lightblue-text {
-        -ms-flex: 70%;
-        flex: 70%;
-        padding-top: 30px;
-        padding-left: 11.5em;
-        padding-bottom: 30px;
-        margin: 0;
-        color: rgb(82, 189, 224);
-        font-size: 1.2em;
-      }
-/* section=kitties-story */
-    .kitties-story {
-      -ms-flex: 70%;
-      flex: 70%;
-      /*float:left;*/
-      padding-right: 20px;
-      overflow: hidden;
-    }
-      h3 {
-        -ms-flex: 70%;
-        flex: 70%;
-        padding-left: 11.5em;
-        padding-bottom: 0;
-        margin: 0;
-        font-size: 1.2em;
-      }
-        .warmspot{
-          color: rgb(82, 189, 224);
-          text-decoration: none;
-        }
-    /*.small-text {found in .welcome section} */
-      .small-text2 {
-        padding-top: 10px;
-        padding-left: 17.5em;
-        margin: 0;
-        font-size: 0.8em;
-      }
-/*aside section=more-cats */
-    .more-cats {
-      -ms-flex: 30%;
-      flex: 30%;
-      padding-top: 30px;
-      padding-left: 0;
-      padding-right: 10em;
-      overflow: hidden;
-      float: right;
-    }
-/* Cats in the news aside */
-    h4 {
-      font-size: 1.2em;
-    }
-    .place-holder-1 {
-      font-size: 0.8em;
-      padding-top: -5px;
-      margin: 0;
-    }
-    /* find out more link 1*/
-      .find-more-1 {
-        color: rgb(82, 189, 224);
-        text-decoration: none;
-    }
-    .place-holder-2 {
-      font-size: 0.8em;
-      padding-top: 30px;
-      margin: 0;
-    }
-      .find-more-2 {
-        color: rgb(82, 189, 224);
-        text-decoration: none;
-      }
-/*cat of the week aside*/
-    h5 {
-      font-size: 1.2em;
-      padding-top: 55px;
-      padding-left: 0;
-      padding-right: 30px;
-      padding-bottom: 30px;
-      margin: 0;
-    }
-    /*the figure, icluding image and caption*/
-    .cat-of-the-week {
-      font-size: 0.8em;
-      padding-left: 0;
-      margin: 0;
-      width: 100%;
-    }
-      .cat-of-week-pic {
-        width: 75%;
-      }
-    .book-now {
-      font-size: 0.8em;
-      color: rgb(82, 189, 224);
-      text-decoration: none;
-    }
-/*footer section*/
-  footer {
-    background-color: rgb(64, 64, 64);
-    color: white;
-    text-align: center;
-    margin-top: 7em;
-    padding: 50px;
-    font-size: 0.8em;
-  }
-    .footer-links a {
-      padding: 10px;
-      text-decoration: none;
-      color: white;
-    }
-    .footer-text1 {
-      padding-top: 20px;
-    }
-    .footer-text2 {
-      padding-bottom: 20px;
-    }
-    .copy-right {
-      padding: 20px;
-    }
-
-
-
-
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles/kitties-mock-up.css">
   </head>
-
 
   <body>
 <!-- Big header and nav bar -->
@@ -232,15 +22,14 @@
     </header>
 <!-- right sided small section -->
     <aside class="more-cats">
-      <h4>CATS IN THE NEWS</h4>
       <article class="place-holder-1">
+        <h4 class="h4">CATS IN THE NEWS</h4>
         <p>Chew iPad power cord why must they do</p>
         <p>that, grab pompom in mouth and put in</p>
         <p>water dish.</p>
         <a class ="find-more-1" href="#">Find out more >></a>
-      </article>
-      <article class="place-holder-2">
-        <p>Chew iPad power cord why must they do</p>
+<!-- space inbetween articles on the webpage display-->
+        <p class="place-holder-2">Chew iPad power cord why must they do</p>
         <p>that, grab pompom in mouth and put in</p>
         <p>water dish.</p>
         <a class="find-more-2" href="#">Find out more >></a>
@@ -257,21 +46,21 @@
     </aside>
 <!-- first paragraph of webpage -->
     <section class="welcome">
+      <h2 class="h2-hidden">hidden title</h2>
       <article class="bold-blue-text">
-        <h2>
-        <p><bold>Cat ipsum dolor sit amet, find something else more interesting, so<bold></p>
-        <p><bold>catty ipsum mesmerizing birds sleep on my human's head.<bold></p>
-        </h2>
+        <h2 class="h2-hidden">hidden title</h2>
+          <p>Cat ipsum dolor sit amet, find something else more interesting, so</p>
+          <p>catty ipsum mesmerizing birds sleep on my human's head.</p>
       </article>
-
       <article class="small-text">
+        <h2 class="h2-hidden">hidden title</h2>
         <p>cat ipsum dolor sit amet, find something else more interesting, so catty ipsum mesmerizing birds</p>
         <p>sleep onmy human's head. <a class ="blanket" href="#">Hide head under blanket</a> so no one can see stares at human while</p>
         <p>pushing stuff off a table. Cat not kitten around claws in your leg kitty kitty but and sometimes</p>
         <p>switches in french and say "miaou" just because well why not.</p>
       </article>
-
       <article class="lightblue-text">
+        <h2 class="h2-hidden">hidden title</h2>
         <p>Please stop looking at your phone and pet me. Lounge in the</p>
         <p>doorway eat and then sleep on your face meowwww meowwww</p>
         <p><i>- Jeremy</i></p>
@@ -281,6 +70,7 @@
     <section class="kitties-story">
       <h3>THE KITTIES TO GO STORY</h3>
       <article class="small-text">
+      <h4 class="h4-hidden">hidden title</h4>
       <p>Fall asleep on the washing machine snuggles up to shoulders or knees and purrs you to sleep.</p>
       <p>eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk</p>
       <p>then <a class="warmspot" href="#">retire to the warmest spot</a> on the couch to claw at the fabric before taking a catnap attempt to</p>
@@ -288,14 +78,12 @@
       <p>meant to do that now i shall wash myself intently cough and swat at dog.</p>
       </article>
       <article class="small-text2">
+      <h4 class="h4-hidden">hidden title</h4>
       <p>Fall over dead (not really but gets sypathy) fooled again thinking the dog likes me. Jump launch</p>
       <p>to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed hiss at</p>
       <p>vacuum cleaner and always hungry for lie on your belly and pur when you are asleep stretch.</p>
       </article>
     </section>
-
-
-
 
     <footer>
       <img class="cat-logo" src="images/lesson04-mock5-cat-logo.PNG" alt="Cat-logo">
@@ -309,6 +97,5 @@
       </nav>
       <p class="copy-right">© 2018 Kitties To Go!, LLC | Seattle, WA</p>
     </footer>
-
   </body>
 </html>
