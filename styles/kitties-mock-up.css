@@ -6,6 +6,7 @@ body {
   font-family: sans-serif, "Times New Roman", serif, arial;
   margin: 0;
   margin-top: -30px;
+  padding: 0;
 }
 /* Header/logo Title */
 header {
@@ -185,6 +186,7 @@ background-color: rgb(64, 64, 64);
 color: white;
 text-align: center;
 margin-top: 7em;
+margin-bottom: 0;
 padding: 50px;
 font-size: 0.8em;
 }
