@@ -16,7 +16,7 @@
     }
     /* Header/logo Title */
     header {
-      background-color: rgb(34, 155, 195);
+      background-color: rgb(51, 166, 204);
       color:white;
     }
     /* Increase the font size of the heading, positioning of heading to match mockup */
@@ -73,7 +73,7 @@
         flex: 70%;
         padding-left: 20em;
         margin: 0;
-        color: rgb(34, 155, 195);
+        color: rgb(51, 166, 204);
         font-size: 0.7em;
       }
 /*small text for section=welcome and section=kitties-story */
@@ -184,6 +184,29 @@
       color: rgb(82, 189, 224);
       text-decoration: none;
     }
+/*footer section*/
+  footer {
+    background-color: rgb(64, 64, 64);
+    color: white;
+    text-align: center;
+    margin-top: 7em;
+    padding: 50px;
+    font-size: 0.8em;
+  }
+    .footer-links a {
+      padding: 10px;
+      text-decoration: none;
+      color: white;
+    }
+    .footer-text1 {
+      padding-top: 20px;
+    }
+    .footer-text2 {
+      padding-bottom: 20px;
+    }
+    .copy-right {
+      padding: 20px;
+    }
 
 
 
@@ -275,18 +298,16 @@
 
 
     <footer>
-      <img src="images/lesson04-mock5-cat-logo.PNG" alt="Cat-logo">
-      <p>aborpos nisto inci tet aut que volupti beruptiberro to ex</p>
-      <p>esseuque invenienihil imaximu scideru ptistiusam consequunt</p>
-      <nav>
-        <ul>
-          <li><a href="#">Footer link 1 /</a></li>
-          <li><a href="#">Footer link 2 /</a></li>
-          <li><a href="#">Footer link 3 /</a></li>
-          <li><a href="#">Footer link 4 /</a></li>
-        </ul>
+      <img class="cat-logo" src="images/lesson04-mock5-cat-logo.PNG" alt="Cat-logo">
+      <p class="footer-text1">aborpos nisto inci tet aut que volupti beruptiberro to ex</p>
+      <p class="footer-text2">esseuque invenienihil imaximu scideru ptistiusam consequunt</p>
+      <nav class="footer-links">
+        <b><a href="#">Footer link 1 /</a>
+        <a href="#">Footer link 2 /</a>
+        <a href="#">Footer link 3 /</a>
+        <a href="#">Footer link 4 /</a></b>
       </nav>
-      <p>copy right 2018 Kitties To Go!, LLC | Seattle, WA</p>
+      <p class="copy-right">© 2018 Kitties To Go!, LLC | Seattle, WA</p>
     </footer>
 
   </body>
