@@ -218,3 +218,32 @@ font-size: 0.8em;
 .h4-hidden {
   display: none;
 }
+/*                  For Kitty profile page           */
+/*                Style for Kitty profile page          */
+.cat-profiles {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.cat-profile-pic {
+  width: 20em;
+  padding: 0;
+  margin: 0;
+  border-style: solid;
+  border-color: black;
+}
+
+/*Section leftsided profiles */
+.h3 {
+  color: black;
+}
+.left-side-profiles {
+  float:left;
+  text-align: left;
+}
+.leftside-container {
+  padding-left: 11.5em;
+  padding-right: 10em;
+}
+.right-side-profiles {
+  text-align: left;
+}
