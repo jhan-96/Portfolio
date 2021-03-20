@@ -244,6 +244,12 @@ font-size: 0.8em;
   padding-left: 11.5em;
   padding-right: 10em;
 }
+.book-now-leftside {
+  padding-left: 17.5em;
+  font-size: 0.8em;
+  color: rgb(82, 189, 224);
+  text-decoration: none;
+}
 .right-side-profiles {
   text-align: left;
 }
