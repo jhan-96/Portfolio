@@ -76,3 +76,9 @@ nav {
       margin: 1em;
       width: 15%;
 }
+.sectioning-ele-section {
+  padding: 1em;
+}
+.sectioning-ele-footer {
+  padding: 1em;
+}
