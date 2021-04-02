@@ -93,3 +93,14 @@ nav {
   border-width: medium;
   width: 20%;
 }
+/*This section is for about-me page*/
+.about-me-section {
+  padding: 1em;
+}
+.about-me-section img {
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  margin: 1em;
+  width: 25%;
+}
