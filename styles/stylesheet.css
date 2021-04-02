@@ -1,29 +1,78 @@
-body
-  header {
-    display: flex;
-    font-family: sans-serif, "Times New Roman", serif;
-    background-color: rgb(77, 219, 255)
-  }
+* {
+  box-sizing: border-box;
+}
+body {
+  /*insert font using google/awesome font*/
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  margin: 0;
+  font-family: sans-serif, "Times New Roman", serif;
+  background-color: rgb(77, 219, 255)
+}
+h1 {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+
+}
+nav {
+  background-color: rgb(191, 191, 191);
+  padding: 2em;
+  width: 100%;
+}
 .nav a{
   font-weight: bold;
+  text-align: center;
   border-style: outset;
-  border-color: grey;
+  border-color: white;
   border-width: thick;
   color: black;
-  padding: 1rem;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding: 0.4em;
   background-color: rgb(0, 191, 255)
 }
 
+ #nav-img img {
+  display: none;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  width: 100px;
+}  /* Took out nav bar img, does not enhance webpage styling.
+ unsure if still needed for assignment grading.  */
 
 
-    img {
+
+.index-section {
+  padding: 1em;
+}
+
+.assignment-previews {
+  float:right;
+
+}
+.previews img {
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  width: 100px;
+}
+  /* img {
+      display: flex;
+      justify-content: space-between;
       border-style: solid;
       border-color: black;
       border-width: medium;
-      vertical-align: middle;
       width: 10%;
-      vertical-align: middle;
-      margin: 15px;
-    }
+    } */
+/*This section is for Sectioning-elements.html */
+.sectioning-cat {
+      border-style: solid;
+      border-color: black;
+      border-width: medium;
+      margin: 1em;
+      width: 15%;
+}
