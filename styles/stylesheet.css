@@ -104,3 +104,18 @@ nav {
   margin: 1em;
   width: 25%;
 }
+
+/*assignment 1/ semantic elements page*/
+.semantic-ele-section {
+  padding: 1em;
+}
+.semantic-ele-section img {
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  margin: 1em;
+  width: 50%;
+}
+.semantic-ele-footer {
+  padding: 1em;
+}
