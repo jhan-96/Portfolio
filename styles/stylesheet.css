@@ -46,7 +46,9 @@ nav {
   padding: 1em;
 }
 .assignment-previews {
+  text-align: center;
   float:right;
+  background-color: rgb(153, 230, 255);
 
 }
 #previews a {
