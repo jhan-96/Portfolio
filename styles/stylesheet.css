@@ -49,11 +49,25 @@ nav {
   float:right;
 
 }
-.previews img {
+#previews a {
+  text-decoration: none;
+  font-size: 1em;
+  color: blue;
+  transition: color 0.2s;
+}
+#previews img {
   border-style: solid;
   border-color: black;
   border-width: medium;
   width: 100px;
+  transition: width 1s 0.5s;
+  transition-timing-function: ease;
+}
+#previews a:hover {
+  color: orange;
+}
+#previews img:hover {
+  width: 150px;
 }
 .index-footer {
   padding: 1em;
@@ -119,3 +133,4 @@ nav {
 .semantic-ele-footer {
   padding: 1em;
 }
+/*transitioning for article "assignment-previews"*/
