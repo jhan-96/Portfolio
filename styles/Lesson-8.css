@@ -14,7 +14,7 @@ header img {
   grid-column: 3;
 }
 header h1 {
-  text-align: center;
+  text-align: ;
   font-size: 3.5em;
   grid-row: 1;
   grid-column: 1 / span 2;
@@ -24,19 +24,12 @@ header h2 {
   grid-row: 2;
   grid-column: 1;
 }
-header a {
-  text-align: center;
-  color: #ecb722;
-  font-size: 1.5em;
-  font-weight: bolder;
-  grid-row: 2;
-  grid-column: 2;
-}
+
 /* nav section*/
 .nav-bar {
   background-color: #444444;
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 3em;
   text-align: center;
 
@@ -61,6 +54,11 @@ header a {
   color: white;
   transition: color;
 }
+.nav5 {
+  text-decoration: none;
+  color: white;
+  transition: color;
+}
 .nav1:hover {
   color: #ecb722;
 }
@@ -71,5 +69,8 @@ header a {
   color: #ecb722;
 }
 .nav4:hover {
+  color: #ecb722;
+}
+.nav5:hover {
   color: #ecb722;
 }
