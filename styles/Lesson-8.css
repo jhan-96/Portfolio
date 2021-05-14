@@ -35,4 +35,25 @@ header a {
 /* nav section*/
 .nav-bar {
   background-color: #444444;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 3em;
+  text-align: center;
+
+}
+.nav1 {
+  text-decoration: none;
+  color: white;
+}
+.nav2 {
+  text-decoration: none;
+  color: white;
+}
+.nav3 {
+  text-decoration: none;
+  color: white;
+}
+.nav4 {
+  text-decoration: none;
+  color: white;
 }
