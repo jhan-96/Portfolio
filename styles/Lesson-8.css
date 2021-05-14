@@ -44,16 +44,32 @@ header a {
 .nav1 {
   text-decoration: none;
   color: white;
+  transition: color;
 }
 .nav2 {
   text-decoration: none;
   color: white;
+  transition: color;
 }
 .nav3 {
   text-decoration: none;
   color: white;
+  transition: color;
 }
 .nav4 {
   text-decoration: none;
   color: white;
+  transition: color;
+}
+.nav1:hover {
+  color: #ecb722;
+}
+.nav2:hover {
+  color: #ecb722;
+}
+.nav3:hover {
+  color: #ecb722;
+}
+.nav4:hover {
+  color: #ecb722;
 }
