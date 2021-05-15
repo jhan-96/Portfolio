@@ -5,11 +5,15 @@ body {
   font-family: arial, sans-serif, "Times New Roman", serif;
   padding: 0;
   margin: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
 }
 /* header section*/
 header {
+  grid-column: 1 / span 2;
+  grid-row: 1;
   display: grid;
-  grid-row-gap: 4em;
   background-color:  #03a3df;
   color: white;
   grid-template-rows: auto auto auto;
@@ -18,21 +22,17 @@ header {
 header img {
   padding-top: 2em;
   padding-left: 2em;
+  padding-bottom: 4em;
   grid-row: 1;
   grid-column: 1 / span 3;
 }
 header h1 {
   display: none; /*went with no-display because header looks less clutered. */
-  text-align: center;
-  font-size: 3.5em;
-  grid-row: 2;
-  grid-column: 1 / span 3;
 }
 .address {
   padding: 1em;
   background-color: #1b447f;
-  grid-row-start: 3;
-  grid-row-end: 3;
+  grid-row: 2;
   grid-column-start: 1;
   grid-column-end: 1;
   font-size: 17px;
@@ -40,8 +40,7 @@ header h1 {
 .email {
   padding: 1em;
   background-color: #1b447f;
-  grid-row-start: 3;
-  grid-row-end: 3;
+  grid-row: 2;
   grid-column-start: 2;
   grid-column-end: 2;
   font-size: 17px;
@@ -49,14 +48,15 @@ header h1 {
 .phone {
   padding: 1em;
   background-color: #1b447f;
-  grid-row-start: 3;
-  grid-row-end: 3;
+  grid-row: 2;
   grid-column-start: 3;
   grid-column-end: 3;
   font-size: 17px;
 }
 /* nav section*/
 .nav-bar {
+  grid-row: 3;
+  grid-column: 1 / span 3;
   background-color: #444444;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -111,12 +111,14 @@ header h1 {
 
 /* Services Section */
 .services {
+  grid-column: 1;
+  grid-row: 2 / span 2;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 40px auto auto auto auto;
 }
 .services h2 {
-  grid-column: 1 2;
+  grid-column: 1 / span 2;
   grid-row: 1;
   font-size: 24px;
   font-weight: bold;
@@ -158,9 +160,15 @@ header h1 {
   font-size: 17px;
   font-weight: bold;
 }
+/* Calendar */
+.calendar {
+  grid-column: 2;
+  grid-row: 2;
+}
 /* facility */
 .facility {
-  float: right;
+  grid-column: 2;
+  grid-row: 3;
 }
 /* Calednar CSS*/
 /*.calendar {
@@ -227,5 +235,6 @@ ul {list-style-type: none;}
   color: white;
 } */
 .footer {
-
+  grid-column: 1 / span 2;
+  grid-row: 4;
 }
