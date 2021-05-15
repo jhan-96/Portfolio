@@ -59,6 +59,9 @@ header h1 {
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 3em;
   text-align: center;
+  padding-top: 2em;
+  font-weight: bold;
+  text-decoration: underline;
 
 }
 .nav1 {
