@@ -3,8 +3,10 @@
 }
 body {
   font-family: sans-serif, "Times New Roman", serif, arial;
-/* header section*/
+  padding: 0;
+  margin: 0;
 }
+/* header section*/
 header {
   display: grid;
   grid-row-gap: 4em;
@@ -14,6 +16,8 @@ header {
   grid-template-columns: auto auto auto;
 }
 header img {
+  padding-top: 2em;
+  padding-left: 2em;
   grid-row: 1;
   grid-column: 1 / span 3;
 }
@@ -25,18 +29,24 @@ header h1 {
   grid-column: 1 / span 3;
 }
 .address {
+  padding: 1em;
+  background-color: #1b447f;
   grid-row-start: 3;
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 1;
 }
 .email {
+  padding: 1em;
+  background-color: #1b447f;
   grid-row-start: 3;
   grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 2;
 }
 .phone {
+  padding: 1em;
+  background-color: #1b447f;
   grid-row-start: 3;
   grid-row-end: 3;
   grid-column-start: 3;
