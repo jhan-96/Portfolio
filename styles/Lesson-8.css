@@ -150,6 +150,7 @@ header h1 {
 .classes h3 {
   font-size: 17px;
   font-weight: bold;
+  text-decoration: underline;
 }
 .services .private-lessons {
   grid-column: 2;
@@ -167,16 +168,33 @@ header h1 {
 .private-lessons h3 {
   font-size: 17px;
   font-weight: bold;
+  text-decoration: underline;
 }
-/* Calendar */
-.calendar {
+/* Hours */
+.hours {
   grid-column: 2;
   grid-row: 2;
+  font-size: 17px;
+  padding: 5px;
+  margin: 5px;
+}
+.hours h2 {
+  font-weight: bold;
+  font-size: 24px;
 }
 /* facility */
 .facility {
   grid-column: 2;
   grid-row: 3;
+}
+.facility h2 {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 5px;
+  margin: 5px;
+}
+.facility img {
+  width: 100%;
 }
 /*footer */
 footer {
