@@ -46,6 +46,7 @@ header h1 {
   font-size: 17px;
 }
 .phone {
+  color: white;
   padding: 1em;
   background-color: #1b447f;
   grid-row: 2;
@@ -139,6 +140,7 @@ header h1 {
   padding: 20px;
   margin: 10px;
   border-radius: 25px;
+  font-size: 17px;
 }
 .classes a {
   color: #ecb722;
