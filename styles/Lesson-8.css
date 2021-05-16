@@ -109,6 +109,7 @@ header h1 {
 .nav5:hover {
   color: #ecb722;
 }
+/*Header and Nav is shared across all pages */
 
 /* Services Section */
 .services {
@@ -197,6 +198,7 @@ header h1 {
   width: 100%;
 }
 /*footer */
+/*footer section is shared across all pages*/
 footer {
   margin-top: 1em;
   padding: 2em;
@@ -214,4 +216,81 @@ footer h2 {
 }
 .footer-nav-bar a {
   color: #ecb722;
+}
+
+
+/* Layout specific to Services Page */
+/* Spaced out */
+/* Spaced out */
+body {
+  font-family: arial, sans-serif, "Times New Roman", serif;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto auto auto auto;
+}
+
+.services {
+  grid-column: 1;
+  grid-row: 2 / span 2;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 40px auto auto auto auto;
+}
+.services h2 {
+  display: none;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 25px;
+}
+
+.services .description {
+  grid-column: 1 / span 2;
+  grid-row: 4;
+  font-size: 17px;
+  padding: 25px;
+}
+
+/*classes offered, break down into smaller sections*/
+.services .classes {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  background-color: #1b447f;
+  color:white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 17px;
+}
+.classes a {
+  color: #ecb722;
+  font-weight: bold;
+}
+.classes h3 {
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*private lessons, break down into smaller sections*/
+.services .private-lessons {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  background-color: #ecb722;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 17px;
+}
+.private-lessons a {
+  color: #1b447f;
+  font-weight: bold;
+}
+.private-lessons h3 {
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: underline;
 }
