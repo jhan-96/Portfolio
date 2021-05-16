@@ -228,10 +228,9 @@ footer h2 {
   grid-row: 2 / span 2;
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: 40px auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
 }
 .services-page h2 {
-  display: none;
   grid-column: 1 / span 2;
   grid-row: 1;
   font-size: 24px;
@@ -247,9 +246,45 @@ footer h2 {
 }
 
 /*classes offered, break down into smaller sections*/
-.services-page .classes-page {
+.services-page .classes-page h2{
+  display: none;
   grid-column: 1;
-  grid-row: 1 / span 3;
+  grid-row: 1;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 25px;
+  /*
+  background-color: #1b447f;
+  color:white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 17px;
+  */
+}
+.services-page .A101 {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #1b447f;
+  color:white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 17px;
+}
+.services-page .A102 {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: #1b447f;
+  color:white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 17px;
+}
+.services-page .A103 {
+  grid-column: 1;
+  grid-row: 4;
   background-color: #1b447f;
   color:white;
   padding: 20px;
@@ -276,6 +311,18 @@ footer h2 {
   margin: 10px;
   border-radius: 25px;
   font-size: 17px;
+}
+
+.services-page .single-lesson {
+
+}
+
+.services-page .three-lesson-package {
+
+}
+
+.services-page .ten-lesson-package {
+
 }
 .private-lessons-page a {
   color: #1b447f;
