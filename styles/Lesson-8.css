@@ -228,7 +228,7 @@ footer h2 {
   grid-row: 2 / span 2;
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows:  auto auto auto auto auto;
 }
 .services-page h2 {
   display:none;
@@ -348,4 +348,23 @@ footer h2 {
   font-size: 17px;
   font-weight: bold;
   text-decoration: underline;
+}
+
+/* video style */
+/* video section */
+.archery-video {
+  padding: 10px;
+  margin: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  grid-column: 1;
+  grid-row: 5;
+}
+.archery-video-2 {
+  padding: 10px;
+  margin: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  grid-column: 2;
+  grid-row: 5;
 }
