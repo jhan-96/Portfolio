@@ -203,7 +203,8 @@ footer {
   color: white;
   grid-column: 1 / span 2;
   grid-row: 4;
-  background-image: url("/images/footerImage.jpg");
+  background-image: url("../images/footerImage.jpg");
+  background-size: 100%;
   background-color: #444444;
 
 }
