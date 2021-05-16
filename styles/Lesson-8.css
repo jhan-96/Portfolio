@@ -137,6 +137,7 @@ header h1 {
   background-color: #1b447f;
   color:white;
   padding: 20px;
+  border-radius: 25px;
 }
 .classes a {
   color: #ecb722;
@@ -151,6 +152,7 @@ header h1 {
   grid-row: 3 / span 3;
   background-color: #ecb722;
   padding: 20px;
+  border-radius: 25px;
 }
 .private-lessons a {
   color: #1b447f;
@@ -170,71 +172,21 @@ header h1 {
   grid-column: 2;
   grid-row: 3;
 }
-/* Calednar CSS*/
-/*.calendar {
-  float: right;
-}
-ul {list-style-type: none;}
-
-.month {
-  padding: 70px 25px;
-  width: 100%;
-  background-color: #444444;
-  text-align: center;
-}
-.month ul {
-  margin: 0;
-  padding:0;
-}
-.month ul li {
+/*footer */
+footer {
+  margin-top: 1em;
+  padding: 2em;
   color: white;
-  font-size: 17px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.month .prev {
-  float: left;
-  padding: 10px 0;
-}
-.month .next {
-  float: right;
-  padding-top: 10px;
-}
-
-.weekdays {
-  margin: 0;
-  padding: 10px 0;
-  background-color: white;
-}
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
-  text-align: center;
-}
-
-.days {
-  padding: 10px 0;
-  background: #eee;
-  margin: 0;
-}
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size: 12px;
-  color: #777;
-}
-
-.days li .active {
-  padding: 5px;
-  background: #1abc9c;
-  color: white;
-} */
-.footer {
   grid-column: 1 / span 2;
   grid-row: 4;
+  background-image: url("images/footerImage.jpg");
+  background-color: #444444;
+}
+footer h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+.footer-nav-bar a {
+  color: #ecb722;
 }
