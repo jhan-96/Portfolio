@@ -154,3 +154,27 @@ button, input, select, textarea {
   display: block;
   margin: 1em;
 }
+fieldset {
+  border: none;
+}
+fieldset input {
+  display: inline;
+}
+
+input {
+  border-radius: 15px;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(102, 217, 255);
+  margin: 0;
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+}
+
+input[type=radio] {
+  cursor: pointer;
+}
