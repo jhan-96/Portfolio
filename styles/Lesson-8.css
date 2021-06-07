@@ -148,6 +148,7 @@ header h1 {
 .classes a {
   color: #ecb722;
   font-weight: bold;
+  padding: 1em;
 }
 .classes h3 {
   font-size: 17px;
@@ -166,6 +167,7 @@ header h1 {
 .private-lessons a {
   color: #1b447f;
   font-weight: bold;
+  padding: 1em;
 }
 .private-lessons h3 {
   font-size: 17px;
@@ -217,6 +219,8 @@ footer h2 {
 }
 .footer-nav-bar a {
   color: #ecb722;
+  padding: 1em;
+  margin: 0.5em;
 }
 
 
@@ -296,6 +300,7 @@ footer h2 {
 .classes-page a {
   color: #ecb722;
   font-weight: bold;
+  padding: 1em;
 }
 .classes-page h3 {
   font-size: 17px;
@@ -344,6 +349,7 @@ footer h2 {
 .private-lessons-page a {
   color: #1b447f;
   font-weight: bold;
+  padding: 1em;
 }
 .private-lessons-page h3 {
   font-size: 17px;
