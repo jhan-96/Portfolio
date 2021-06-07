@@ -145,6 +145,8 @@ h1 {
   .find-more-1 {
     color: rgb(82, 189, 224);
     text-decoration: none;
+    padding-top: 1em;
+    padding-right: 1em;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
@@ -155,6 +157,9 @@ h1 {
   .find-more-2 {
     color: rgb(82, 189, 224);
     text-decoration: none;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
   }
 /*cat of the week aside*/
 h5 {
@@ -179,6 +184,10 @@ h5 {
   font-size: 0.8em;
   color: rgb(82, 189, 224);
   text-decoration: none;
+  padding-left: 0;
+  padding-top: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
 }
 /*footer section*/
 footer {
@@ -246,7 +255,8 @@ font-size: 0.8em;
   padding-right: 10em;
 }
 .book-now-leftside {
-  padding-left: 17.5em;
+  margin-left: 16em;
+  padding: 1.5em;
   font-size: 0.8em;
   color: rgb(82, 189, 224);
   text-decoration: none;
