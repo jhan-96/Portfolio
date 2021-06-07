@@ -209,14 +209,15 @@ font-size: 0.8em;
 }
 
 /*hiding these title for validate html purpose0- */
-.h1-hidden {
-  display: none;
-}
-.h2-hidden {
-  display: none;
-}
-.h4-hidden {
-  display: none;
+/*Heading still available for screen reader for accessibility */
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 /*                  For Kitty profile page           */
 /*                Style for Kitty profile page          */
